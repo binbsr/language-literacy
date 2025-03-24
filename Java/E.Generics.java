@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Arrays;
 import java.util.function.Function;
 
-public class Generics {
+class Generics {
     public static <T> T findBest(List<T> items, Function<T, Double> getValue) {
         if (items == null || items.isEmpty()) {
             throw new IllegalArgumentException("List cannot be empty or null");

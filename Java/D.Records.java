@@ -1,6 +1,6 @@
 package Java;
 
-public record Person(String name, int age, String email) {
+record Person(String name, int age, String email) {
     
     public Person(String name, int age) {
         this(name, age, "");
